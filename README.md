@@ -24,49 +24,55 @@ This project is a simple implementation of the classic Minesweeper game using Py
 
 ### Prerequisites
 
-Ensure you have Python installed (Python 3.x recommended).
+* Ensure you have Python installed (Python 3.x recommended).
 
-Install Tkinter if not already available (typically included with Python).
+* Install Tkinter if not already available (typically included with Python).
 
 ### Steps
 
-Clone or download the repository.
+1. Clone or download the repository.
 
-Navigate to the project directory.
+2. Navigate to the project directory.
 
-Run the script using:
+3. Run the script using:
 
+```python
 python minesweeper.py
+```
 
 ## How to Play
 
-A Minesweeper grid will appear.
+1. A Minesweeper grid will appear.
 
-Left-click a square to reveal it:
+2. Left-click a square to reveal it:
 
-If it's a bomb, you lose.
+* If it's a bomb, you lose.
 
-If it's an empty space, adjacent squares may be revealed.
+* If it's an empty space, adjacent squares may be revealed.
 
-If it's a numbered square, it indicates how many bombs are adjacent.
+* If it's a numbered square, it indicates how many bombs are adjacent.
 
-Right-click (or middle-click) to place/remove a flag on a suspected bomb.
+3. Right-click (or middle-click) to place/remove a flag on a suspected bomb.
 
-The game ends when:
+4. The game ends when:
 
-You successfully flag all bombs and uncover all other squares (Win).
+* You successfully flag all bombs and uncover all other squares (Win).
 
-You uncover a bomb (Lose).
+* You uncover a bomb (Lose).
 
 ## Configuration
 
 You can customize the grid size and number of bombs by modifying the script's function call:
 
+```python
 play_minesweeper(width, height, bombAmount)
+```
 
 For example:
 
+```python
 play_minesweeper(12, 10, 15)
+```
 
 sets up a 12x10 grid with 15 bombs.
 
