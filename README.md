@@ -46,19 +46,19 @@ python minesweeper.py
 
 2. Left-click a square to reveal it:
 
-* If it's a bomb, you lose.
+  * If it's a bomb, you lose.
 
-* If it's an empty space, adjacent squares may be revealed.
+  * If it's an empty space, adjacent squares may be revealed.
 
-* If it's a numbered square, it indicates how many bombs are adjacent.
+  * If it's a numbered square, it indicates how many bombs are adjacent.
 
 3. Right-click (or middle-click) to place/remove a flag on a suspected bomb.
 
 4. The game ends when:
 
-* You successfully flag all bombs and uncover all other squares (Win).
+  * You successfully flag all bombs and uncover all other squares (Win).
 
-* You uncover a bomb (Lose).
+  * You uncover a bomb (Lose).
 
 ## Configuration
 
