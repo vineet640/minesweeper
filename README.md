@@ -6,7 +6,7 @@ This project is a simple implementation of the classic Minesweeper game using Py
 
 ## Features
 
-Graphical user interface using Tkinter.
+* Graphical user interface using Tkinter.
 
 Configurable grid size and number of bombs.
 
