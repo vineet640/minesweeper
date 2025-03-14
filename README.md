@@ -8,17 +8,17 @@ This project is a simple implementation of the classic Minesweeper game using Py
 
 * Graphical user interface using Tkinter.
 
-Configurable grid size and number of bombs.
+* Configurable grid size and number of bombs.
 
-Left-click to uncover a square.
+* Left-click to uncover a square.
 
-Right-click (or middle-click) to place or remove a flag.
+* Right-click (or middle-click) to place or remove a flag.
 
-Auto-reveal of empty squares.
+* Auto-reveal of empty squares.
 
-Bomb indicators with different colors.
+* Bomb indicators with different colors.
 
-Win/Loss notification messages.
+* Win/Loss notification messages.
 
 ## Installation
 
